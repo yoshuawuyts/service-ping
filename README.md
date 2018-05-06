@@ -8,7 +8,21 @@ Ping service.
 - [Crates.io][2]
 
 ## Usage
-```rust
+```txt
+service-ping 0.1.0
+Yoshua Wuyts <yoshuawuyts@gmail.com>
+Ping service
+
+USAGE:
+    service-ping [FLAGS] [OPTIONS]
+
+FLAGS:
+    -h, --help       Prints help information
+    -s, --silent     Toggle logging to stdout.
+    -V, --version    Prints version information
+
+OPTIONS:
+    -p, --port <port>    Port to listen to. [default: 8080]
 ```
 
 ## Installation
